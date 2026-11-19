@@ -74,3 +74,9 @@ Magisk → 模块 → Switch Pro Controller Rumble Bridge → 操作（Action）
 - Linux `drivers/hid/hid-nintendo.c`（0x10 报文与幅度表）
 - SDL3 `src/joystick/hidapi/SDL_hidapi_switch.c`（101 项幅度查找表）
 - dekuNukem/Nintendo_Switch_Reverse_Engineering 的 `rumble_data_table.md`
+
+## 许可证
+
+本项目以 **GNU General Public License v3.0** 发布，详见 [LICENSE](LICENSE)。
+
+震动编码数据来源于 Linux 内核 `hid-nintendo.c`（GPL-2.0）和 SDL3 `SDL_hidapi_switch.c`（Zlib）；协议本身来自社区逆向文档。
