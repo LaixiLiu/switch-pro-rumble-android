@@ -1,0 +1,6 @@
+id=switch_pro_rumble
+name=Switch Pro Controller Rumble Bridge
+version=0.1
+versionCode=1
+author=LiuXian
+description=Game-driven rumble for Switch Pro Controller over Bluetooth (uinput FF bridge + hidraw 0x10 reports). Start manually from the module's Action button; nothing runs resident until then.

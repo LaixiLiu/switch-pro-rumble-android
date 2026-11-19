@@ -1,0 +1,5 @@
+# build artifacts / packaging output
+*.zip
+*_lf.sh
+*.o
+*.log

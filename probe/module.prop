@@ -1,0 +1,6 @@
+id=switch_hidraw_probe
+name=Switch Controller HID Access Probe
+version=0.1
+versionCode=1
+author=LiuXian
+description=Temporary manual HID raw access probe for Switch Pro rumble validation

@@ -1,0 +1,1 @@
+allow magisk vendor_hidraw_device chr_file { open write ioctl getattr }

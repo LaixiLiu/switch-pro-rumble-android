@@ -1,0 +1,8 @@
+# Switch Pro Controller rumble bridge
+# hidraw: write Nintendo 0x10 rumble reports to the real controller
+allow magisk vendor_hidraw_device chr_file { open read write ioctl getattr }
+# uinput: create the FF-capable virtual gamepad
+allow magisk uinput_device chr_file { open read write ioctl getattr }
+# evdev: grab the real controller node and forward its events
+allow magisk input_device chr_file { open read write ioctl getattr }
+allow magisk input_device dir { search read open getattr }
